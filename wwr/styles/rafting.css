@@ -18,6 +18,7 @@ header {
 body {
     font-family: var(--body--font);
     color: var(--accent2-color);
+    position: relative;
 }
 header, main, footer {
     width: 840px;
@@ -30,9 +31,11 @@ h1, h2{
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    position: relative;
 }
 .socialmedia a {
     text-decoration: none;
+    position: relative;
 }
 .hero {
     position: relative;
@@ -41,9 +44,10 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    position: absolute;
 }
 h1 {
-    position: absolute;
+    position: relative;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -52,7 +56,17 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 }
-
+.hero article {
+    padding-top: 350px;
+    border: var(--accent1-color);
+    position: relative;
+}
+p {
+     background-color: var(--accent1-color);
+     position: relative;
+     display: flex;
+     
+}
 .hero article img {
     float: right;
     width: 150px;
