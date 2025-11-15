@@ -17,7 +17,7 @@ header {
 }
 body {
     font-family: var(--body--font);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 header, main, footer {
     width: 840px;
@@ -50,10 +50,13 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff
+    color: #fff;
 }
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 150px;
+    position: relative;
+    border: 1px var(--secondary-color); 
+    padding: 2px; 
 }
