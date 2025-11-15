@@ -8,8 +8,8 @@
     --secondary-color: #ad8409; /*brown */
     --accent1-color: #95b4ae; /*cascade */
     --accent2-color: #836728; /*soft cider */
-    --heading-font: "Baskerville", "Century", serif;
-    --body--font: "Trebuchet", "Impact", sans-serif,
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body--font: "Arial", "Helvetica", sans-serif,
 }
 header {
     background-color: var(--primary-color);
