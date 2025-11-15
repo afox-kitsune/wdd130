@@ -47,7 +47,7 @@ nav, p, section, article {
     position: absolute;
 }
 h1 {
-    position: relative;
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -57,9 +57,9 @@ h1 {
     color: #fff;
 }
 .hero article {
-    padding-top: 350px;
+    padding-top: 400px;
     border: var(--accent1-color);
-    position: relative;
+    position: absolute;
 }
 p {
      background-color: var(--accent1-color);
@@ -73,4 +73,7 @@ p {
     position: relative;
     border: 1px var(--secondary-color); 
     padding: 2px; 
+}
+section {
+    padding-top: 650px;
 }
