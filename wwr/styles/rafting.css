@@ -9,7 +9,7 @@
     --accent1-color: #95b4ae; /*cascade */
     --accent2-color: #836728; /*soft cider */
     --heading-font: "Times New Roman", "Georgia", serif;
-    --body--font: "Arial", "Helvetica", sans-serif,
+    --body--font: "Arial", "Helvetica", sans-serif;
 }
 header {
     background-color: var(--primary-color);
