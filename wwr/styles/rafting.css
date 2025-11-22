@@ -88,6 +88,7 @@ article {
     padding: 10px;
     margin: 30px;
     background-color: var(--accent2-color);
+    color: var(--secondary-color);
     opacity: 0.8;
 }
 article img {
