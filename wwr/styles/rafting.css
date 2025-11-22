@@ -13,7 +13,6 @@
 }
 main {
     display: grid;
-    grid-template-columns: auto;
     grid-template-rows: 2fr 1fr 1fr;
     background-color: var(--primary-color);
 }
@@ -181,6 +180,8 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
 
 }
 .title-two {
@@ -189,20 +190,20 @@ main {
 
 }
 .two {
+    display: flex;
     width: 100px;
     height: 200px;
     margin: auto;
+    justify-content: space-evenly;
+    align-items: stretch;  
 
 }
 figure img {
-
+    display: block;
     width: 150px;
     height: 200px;
-    position: relative;
-    justify-content: space-between;
-    border: 15px var(--accent2-color); 
     padding: 5px; 
-    float: center;
+
 }
 figcaption {
     color: var(--accent1-color);
@@ -216,6 +217,7 @@ figcaption {
     align-items: center;
     margin-top: auto;
     background-color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 .socialmedia nav:hover {
     color: var(--accent2-color)
@@ -225,6 +227,7 @@ figcaption {
 footer img {
     position: relative;
     width: 40px;
+
 
 
 }
