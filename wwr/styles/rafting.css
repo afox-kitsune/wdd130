@@ -20,7 +20,7 @@ main {
 
 body {
     font-family: var(--body--font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 
 }
 header, main, footer {
@@ -149,13 +149,14 @@ article p{
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     gap: 20px;
 }
 .title-one {
 
     position: absolute;
     grid-column: 2;
+    color: var(--accent2-color);
 
 }
 .one img {
@@ -180,7 +181,6 @@ article p{
     justify-content: space-around;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
-
 }
 .title-two {
     align-self: flex-start;
@@ -195,7 +195,6 @@ article p{
     justify-content: space-evenly;
     align-items: stretch;
 
-
 }
 figure {
     border: thin sienna solid;
@@ -205,12 +204,15 @@ figure {
     max-height: 150px;
     padding: 5px;
     margin: auto;
+    align-self: flex-start;
+    
 
 
 }
 figure img {
     max-width: 210px;
     max-height: 150px;
+
 }
 figcaption {
     background-color: var(--accent2-color);
