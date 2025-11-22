@@ -7,7 +7,7 @@
     --primary-color: #00343d; /*midnight teal */
     --secondary-color: #faf5e0; /*creamy rellow */
     --accent1-color: #a8c2bd; /*cascade */
-    --accent2-color: #7d412c; /*soft cider */
+    --accent2-color: #653624; /*soft cider */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body--font: "Arial", "Helvetica", sans-serif;
 }
@@ -50,7 +50,7 @@ nav ul li a {
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     display: flex; 
     padding: 0.5rem;
     padding: 20px 0;
@@ -198,18 +198,26 @@ main {
     align-items: stretch;  
 
 }
-figure img {
-    display: block;
-    width: 150px;
-    height: 200px;
-    padding: 5px; 
+figure {
+    border: thin sienna solid;
+    display: flex;
+    flex-flow: column;
+    max-width: 220px;
+    max-height: 150px;
+    padding: 5px;
+    margin: auto;
 
 }
+figure img {
+    max-width: 210px;
+    max-height: 150px;
+}
 figcaption {
+    background-color: var(--accent2-color);
     color: var(--accent1-color);
-    font-size: large;
-    width: 150px;
-    float: center;
+    font-size: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
 .section-three {
     display: flex;
