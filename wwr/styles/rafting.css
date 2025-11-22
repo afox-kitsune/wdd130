@@ -14,7 +14,8 @@
 main {
     display: grid;
     grid-template-rows: 2fr 1fr 1fr;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
 
 }
 
@@ -185,6 +186,7 @@ article p{
 .title-two {
     align-self: flex-start;
     position: absolute;
+    color: var(--accent2-color);
 
 }
 .two {
