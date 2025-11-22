@@ -102,7 +102,7 @@ article p{
     position: relative;
     height: 100px;
     margin: 10px;
-    padding-right: 100px;
+    padding-right: 200px;
     color: var(--secondary-color);
 }
 
@@ -120,26 +120,27 @@ article p{
     height: auto;
     position: absolute;
 }
+.hero article {
+    position: absolute;
+}
 .hero h1 {
     position: absolute;
     top: 20px;
     padding-left: 75px;
-    width: auto;
+    width:auto;
     text-align: center;
     font-size: 4rem;
     font-weight: 700;
 
 }
-.hero article {
-    position: absolute;
-}
 
 .hero article img {
     float: right;
     width: 150px;
-    position: relative;
+    position: absolute;
     border: 1px var(--secondary-color); 
-    padding: 2px; 
+    padding: 2px;
+
 }
 
 
