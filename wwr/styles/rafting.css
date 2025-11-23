@@ -194,27 +194,23 @@ article p{
     display: flex;
     width: 100px;
     height: 200px;
-    margin: auto;
-    justify-content: space-evenly;
-    align-items: stretch;
-
+    margin: 0 auto;
+    justify-content: center;
 }
 figure {
     border: thin sienna solid;
     display: flex;
     flex-flow: column;
-    max-width: 220px;
-    max-height: 150px;
+    max-width: 150px;
+    max-height: 110px;
     padding: 5px;
     margin: auto;
-    align-self: flex-start;
-    
 
 
 }
 figure img {
-    max-width: 210px;
-    max-height: 150px;
+    max-width: 140px;
+    max-height: 110px;
 
 }
 figcaption {
@@ -241,7 +237,71 @@ footer img {
     position: relative;
     width: 40px;
 
-
-
+}
+.contact-hero {
+    position: relative;
+    grid-template-rows: 1fr 1fr;
 }
 
+.contact-hero h1 {
+    position: absolute;
+    top: 20px;
+    padding-left: 175px;
+    width:auto;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--accent2-color);
+
+}
+.contact-hero p {
+    color: var(--accent2-color);
+    padding-left: 350px;
+    font-size: larger;
+    position: relative;
+}
+.address {
+    margin-top: 75px;
+}
+.form-item {
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    color: var(--primary-color);
+}
+label {
+    font-size: 20px;
+    position: relative;
+    top: 8px;
+}
+input, textarea {
+    width: 100%;
+    border: 1px solid #666666;
+    padding: 4px 0px;
+    font-size: medium;
+    margin: 10px 0px;
+    border-radius: 10px;
+    text-indent: 8px;
+}
+button {
+    margin: .5rem;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color: var(--accent2-color);
+}
+.form-item-column-1 {
+    width: 20px;
+    padding: 30px;
+}
+.form-item-column-2 {
+    padding-right: 30px;
+}
