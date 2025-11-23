@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    max-width: 600px;
+
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-size: 1em;
+    color: lightcyan;
+    background: lightgray;
+  
+}   
+h1 {
+    margin: 2rem;
+    font-size: 2em;
+    color: darkslateblue;
+    text-align: center;
+}
+
+form {
+    margin: .5rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: lightslategray;
+    color:darkslateblue;
+}
+code {
+    display: block;
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 1rem;
+}
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    justify-content: space-around;
+}
+.quiz-item {
+    border: none;
+}
+input, button, select, textarea {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: .75rem;
+    width: 350px;
+}
+
+input, select, textarea {
+    padding: .75rem;
+    width: 250px;
+}
+
+button {
+    margin: 0 auto;
+    background-color: lightsteelblue;
+    color: darkslateblue;
+    border: none;
+    display: block;
+    border-radius: .5rem;
+    padding: .50rem;
+    font-size: 1rem;
+
+}
+
+button:hover {
+    background-color: darkmagenta;
+}
+
+footer {
+    margin: 2rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.5em;
+    color: gray;
+    border-top: 1px solid #191970;
+}
