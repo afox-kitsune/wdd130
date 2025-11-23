@@ -263,7 +263,7 @@ footer img {
 .address {
     margin-top: 75px;
 }
-form {
+.form-columns {
     margin: 0 auto;
     border-radius: 0.5rem;
     display: grid;
@@ -302,6 +302,6 @@ button:hover {
     width: 20px;
     padding: 30px;
 }
-.form-item-column-2 {
+.form {
     padding-right: 30px;
 }
