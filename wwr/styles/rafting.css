@@ -188,9 +188,11 @@ article p{
     align-self: flex-start;
     position: absolute;
     color: var(--accent2-color);
+    padding: 10px;
 
 }
 .two {
+    padding: 40px;
     display: flex;
     width: 100px;
     height: 200px;
@@ -198,27 +200,31 @@ article p{
     justify-content: center;
 }
 figure {
-    border: thin sienna solid;
+    padding-top: 10px;
+    border: thin var(--secondary-color);
     display: flex;
     flex-flow: column;
-    max-width: 150px;
-    max-height: 110px;
+    max-width: 175px;
+    height: 170px;
     padding: 5px;
     margin: auto;
+    background-color: var(--accent2-color);
+    font-size: large;
 
 
 }
 figure img {
     max-width: 140px;
-    max-height: 110px;
+    height: 110px;
 
 }
 figcaption {
     background-color: var(--accent2-color);
     color: var(--accent1-color);
     font-size: smaller;
-    padding: 3px;
+    padding: 5px;
     text-align: center;
+
 }
 .section-three {
     display: flex;
@@ -304,4 +310,206 @@ button:hover {
 }
 .form {
     padding-right: 30px;
+}
+a.button {
+    padding: 8px 10px;
+    border: 9px;
+    border-radius: 8px;
+    color: var(--accent2-color);
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    margin: 200px;
+    font-size: 30px;
+    display: flex;
+    margin: 100px;
+    left: 27%;
+
+}
+.index-section-one {
+    box-sizing: border-box;
+    display: block;
+    color: var(--primary-color);
+    text-shadow: none;
+    text-align: center;
+    font: var(--body--font);
+    position: relative;
+    padding-top: 500px;
+    margin: 0;
+
+}
+.index-section-one p {
+    color: var(--primary-color);
+    position: absolute;
+    top: 40%;
+    width: 50%;
+    font-size: 14px;
+    text-shadow: 5px var(--primary-color);
+    margin-left: 200px;
+}
+.index-section-one h2 {
+    position: absolute;
+    top: 52%;
+    margin-left: 210px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+} 
+.index-hero {
+    position: relative;
+}
+.index-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.index-hero article {
+    position: absolute;
+}
+.index-hero h1 {
+    position: absolute;
+    top: 20px;
+    padding-left: 75px;
+    width:auto;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.index-hero article img {
+    float: right;
+    width: 150px;
+    position: absolute;
+    border: 1px var(--secondary-color); 
+    padding: 2px;
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid var(--accent2-color);
+    font-family: serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid var(--accent2-color);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: 900;
+}
+.trips-section-three h3 {
+    font-size: xx-large;
+    color: var(--primary-color);
+    text-align: center;
+    font-family: serif;
+}
+
+
+.detail-trip-two {
+    font-size: larger;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    color: var(--secondary-color);
+    text-align: center;
+ 
+}
+
+detail-trip {
+
+    display: flex;
+    flex-flow: column;
+    background-color: var(--primary-color);
+    width: 250px;
+
+}
+detailcaption, detail {
+    width: 200px;
+    margin: 25px;
+}
+
+.trips-section-two h2 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+
+}
+
+
+.trips-section-one article p{
+
+    font-family: var(--body--font);
+    font-size: larger;
+    padding: 50px;
+    justify-content: center;
+}
+.trips-section-one article {
+    padding-bottom: 250px;
+    display: flex;
+    justify-content: center;
+}
+.trips-section-one button {
+    display: flex;
+    justify-content: center;
+}
+.trips-button  {
+    padding: 325px
+}
+figure-index {
+    padding-top: 10px;
+    border: thin var(--secondary-color);
+    display: flex;
+    flex-flow: column;
+    max-width: 350px;
+    height: 300px;
+    padding: 8px;
+    margin: auto;
+    background-color: var(--primary-color);
+    gap: 20px;
+
+
+}
+figure img {
+    max-width: 140px;
+    height: 110px;
+
+}
+figcaption-index {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: larger;
+    padding: 2px;
+    text-align: center;
+
+}
+.two-index {
+    padding: 5px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.index-section-two p {
+    font-size: larger;
+    padding: 20px;
+}
+
+.index-section-two h2 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    text-align: center;
+
+}
+.index-section-one img {
+    width: 100%;
+    position: relative;
 }
