@@ -13,7 +13,7 @@
 }
 main {
     display: grid;
-    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
     background-color: var(--accent1-color);
     color: var(--primary-color);
 
@@ -181,7 +181,7 @@ article p{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
 
 }
 .title-two {
@@ -283,7 +283,7 @@ label {
     top: 8px;
 }
 input, textarea {
-    width: 100%;
+    width: 90%;
     border: 1px solid #666666;
     padding: 4px 0px;
     font-size: medium;
@@ -463,7 +463,7 @@ detailcaption, detail {
     justify-content: center;
 }
 .trips-button  {
-    padding: 325px
+    padding: 145px 325px;
 }
 figure-index {
     padding-top: 10px;
@@ -512,4 +512,7 @@ figcaption-index {
 .index-section-one img {
     width: 100%;
     position: relative;
+}
+.newsletter-form label {
+    display: block;
 }
